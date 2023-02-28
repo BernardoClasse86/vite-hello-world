@@ -1,9 +1,9 @@
 <template>
-  <div class="bg">
+  <h1 class="title-bg">
 
     {{ appTitle }}
 
-  </div>
+  </h1>
 </template>
   
 <script>
@@ -23,8 +23,7 @@ export default {
 </script>
 
 <style>
-.bg {
-  background-color: lightskyblue;
-  color: black;
+.title-bg {
+  font-size: 4rem;
 }
 </style>
